@@ -1,0 +1,285 @@
+@font-face
+{
+    font-family: LocalOswald;
+    src: url('Oswald-Regular.ttf');
+        
+}
+lu a{
+  color: black;
+  right:0px;top:6px;
+  text-align: center;
+  color: black;
+  position: absolute;
+  text-decoration: none;
+  min-height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+lu a:hover{
+    background-color: #47c9af;
+    color: white;
+}
+input
+{
+    float: right;
+    width: 50%;
+}
+header
+{
+    color: black;
+    background-color: white;
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    font-family: 'LocalOswald', sans-serif;
+}
+.back
+{
+  font-family: 'LocalOswald', sans-serif;
+  float: center;
+  text-align: center;
+  min-width: 60px;
+  min-height: 30px;
+  line-height: 30px;
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  cursor:pointer;
+}
+
+h1
+{
+    margin: 0px;
+   padding: 10px;
+   font-family: 'LocalOswald', sans-serif;
+    font-size: 25px;
+    height: 35px;
+    line-height: 35px;
+}
+h1
+{
+    text-align: center;
+   font-family: 'LocalOswald', sans-serif;
+    font-size: 25px;
+}
+img {
+  -webkit-transform: scale(1); /* Saf3.1+, Chrome */
+     -moz-transform: scale(1); /* FF3.5+ */
+      -ms-transform: scale(1); /* IE9 */
+       -o-transform: scale(1); /* Opera 10.5+ */
+          transform: scale(1);
+             /* IE6–IE9 */
+             filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+}​
+#wrap {
+    overflow: hidden;
+    position: fixed;
+    float: left;
+}
+
+#wrap img.fake {
+    float: left;
+    visibility: hidden;
+    width: auto;
+    max-height: 20px;
+}
+
+#img_wrap {
+    position: relative;
+}
+#img_wrap img.normal {
+    width: 100%;
+   
+}​
+
+
+
+body
+{
+   background-color: #eee; 
+   min-width: 750px;
+}
+section
+{
+    max-width: 3000px;
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    height: auto;
+    min-height: 3000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+article
+{
+    float: left;
+    font-size: 15px;
+    text-align: justify;
+    background-color: white;
+    margin: 10px;
+    padding: 3%;
+    padding-top: 5px;
+    color: black;
+    width: 97%;
+}
+
+#footer
+{
+    color: black;
+    background-color: white !important;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 20px;
+    min-height: 50px;
+    min-width:97%;
+    line-height: 50px;
+    font-family: 'LocalOswald', sans-serif;
+    z-index: 2;
+}
+#less
+{
+  display: none;
+}
+#zawa1
+{
+  display: none;
+}
+
+
+section1
+{  
+    float: left;
+    width: 44%;
+    margin-left: 1.4%;
+    margin-right: 1.4%;
+    display: inline-block; 
+}
+section2
+{
+    
+   align-content: center;
+    float: left;
+    width: 92%;
+    margin-left: 2%;
+    margin-right: 6%;
+    display: inline-block; 
+    text-align: justify;
+}
+section3
+{
+    align-content: center;
+    float: left;
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20px;
+    background-color: white;
+    text-align: justify;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #47c9af;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#cssmenu ul {
+  background: #ffffff;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #444444;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #47c9af;
+}
